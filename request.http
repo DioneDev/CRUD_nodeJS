@@ -1,0 +1,31 @@
+POST http://localhost:4002/products
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Acer Usado",
+  "price": 2200
+}
+
+###
+
+GET http://localhost:4002/product-list
+
+###
+
+GET http://localhost:4002/products/ec95cdd8-39fd-4765-8694-d25969c84500
+
+###
+
+PUT http://localhost:4002/products/d55f5a19-59ec-4a72-99c4-d18f2dd83bd8
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Acer Pro Gamer",
+  "price": 23000
+}
+
+###
+
+DELETE http://localhost:4002/products/18930b1e-9304-4db2-9112-c6e34fc90e6b
